@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MainConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!--一行有几个-->
+  <Column>2</Column>
+  <!--按钮配置-->
+  <ButtonList>
+    <ButtonConfig>
+      <!--名称-->
+      <Name>部署</Name>
+      <!--颜色-->
+      <Color>231, 76, 60</Color>
+      <!--组件路径-->
+      <DllPath>TAP.AutoDeploymentTool.exe</DllPath>
+      <!--类名-->
+      <ClassName>TAP.AutoDeploymentTool.ctlDeployment</ClassName>
+      <!--参数-->
+      <Params>Deploy</Params>
+      <!--返回主页面的事件名-->
+      <BackEvent>BackClick</BackEvent>
+    </ButtonConfig>
+    <ButtonConfig>
+      <Name>修改  配置</Name>
+      <Color>241, 196, 16</Color>
+      <DllPath>TAP.AutoDeploymentTool.exe</DllPath>
+      <ClassName>TAP.AutoDeploymentTool.ctlDeployment</ClassName>
+      <Params>Config</Params>
+      <BackEvent>BackClick</BackEvent>
+    </ButtonConfig>
+    <ButtonConfig>
+      <Name>升级</Name>
+      <Color>122, 193, 225</Color>
+      <DllPath>TAP.AutoDeploymentTool.exe</DllPath>
+      <ClassName>TAP.AutoDeploymentTool.ctlUpdate</ClassName>
+      <BackEvent>BackClick</BackEvent>
+    </ButtonConfig>
+    <ButtonConfig>
+      <Name> IDM   部署</Name>
+      <Color>46, 204, 113</Color>
+      <DllPath>IDM.WebDeploymentTool.dll</DllPath>
+      <ClassName>IDM.WebDeploymentTool.ctlIDM</ClassName>
+      <BackEvent>BackClick</BackEvent>
+    </ButtonConfig>
+  </ButtonList>
+</MainConfig>

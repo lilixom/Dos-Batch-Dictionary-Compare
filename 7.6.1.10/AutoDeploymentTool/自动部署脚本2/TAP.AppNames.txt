@@ -1,0 +1,3 @@
+IAM.Web,IDM.IAM.Web
+IDM.Web,IDM.Web
+IDM.Web.API,IDM.Web.API
